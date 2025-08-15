@@ -125,8 +125,8 @@ const Projects = () => {
          
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            active={toggle === "design web"}
+            onClick={() => setToggle("design web")}
           >
            Design Web
           </ToggleButton>

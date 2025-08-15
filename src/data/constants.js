@@ -3,9 +3,9 @@ export const Bio = {
     roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "/",
+    github: "https://github.com/MeetBhatiya23",
     resume: "/",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/meet-bhatiya-182472314/",
     twitter: "/",
     insta: "/",
     facebook: "/",
@@ -111,8 +111,8 @@ export const skills = [
             //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
             // },
             {
-                name: "Flask",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+                name: "AWS",
+                image: "https://imgs.search.brave.com/_9pMBglwie5jIKi2P4E7TyV_F69NNgnG1BUf8M3VesQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9yZWdp/c3RyeS5ucG1taXJy/b3IuY29tL0Bsb2Jl/aHViL2ljb25zLXN0/YXRpYy1wbmcvbGF0/ZXN0L2ZpbGVzL2Rh/cmsvYXdzLWNvbG9y/LnBuZw",
             },
             // {
             //   name: "Django",
@@ -231,7 +231,7 @@ export const skills = [
             },
             {
                 name: "Postman",
-                image: "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+                image: "https://imgs.search.brave.com/RPEPJUb4IIh6Ytl8mg0KrGvC0JxA_AmkKdSisGSAMDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MmNjMWIzYTE1MGQ1/ZGU5YTNkYWQ1Zjcu/cG5n",
             },
             // {
             //   name: "Adobe XD",
@@ -244,7 +244,7 @@ export const skills = [
             },
             {
                 name: "Insomnia",
-                image: "https://static-00.iconduck.com/assets.00/apps-insomnia-icon-512x512-dse2p0fm.png",
+                image: "https://imgs.search.brave.com/DWwhzraMj8P59KnQ_QIlgWCEzjDl5xLwvEp15WtHQi8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/c2FuZHR5cGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wMS9pbnNvbW5p/YS5zdmc",
             },
         ],
     },
@@ -397,13 +397,13 @@ export const projects = [
             "HTML",
             "CSS"
         ],
-        category: "Design Web",
+        category: "design web",
         github: "",
         webapp: "https://decisionhub.netlify.app/",
     },
     {
         id: 9,
-        title: "Trackify",
+        title: "Xipson",
         date: "Jun 2023 - Jul 2023",
         description:
             "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
@@ -436,30 +436,30 @@ export const projects = [
         category: "web app",
         github: "https://github.com/rishavchanda/Podstream",
         webapp: "https://podstream.netlify.app/",
-        member: [
-            {
-                name: "Rishav Chanda",
-                img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-                linkedin:
-                    "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-                github: "https://github.com/rishavchanda/",
-            },
-            {
-                name: "Upasana Chaudhuri",
-                img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-                linkedin:
-                    "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-                github: "https://github.com/upasana0710",
-            },
-        ],
+        // member: [
+        //     {
+        //         name: "Rishav Chanda",
+        //         img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        //         linkedin:
+        //             "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        //         github: "https://github.com/rishavchanda/",
+        //     },
+        //     {
+        //         name: "Upasana Chaudhuri",
+        //         img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        //         linkedin:
+        //             "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        //         github: "https://github.com/upasana0710",
+        //     },
+        // ],
     },
     {
         id: 1,
-        title: "Vexa",
+        title: "Home Modification",
         date: "Oct 2022 - Jan 2023",
         description:
             "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-        image: "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+        image: "/website-images/home-modify.png",
         tags: [
             "React Js",
             "MongoDb",
@@ -469,8 +469,8 @@ export const projects = [
             "NodeMailer",
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Project-Management-App",
-        webapp: "https://vexa-app.netlify.app/",
+        github: "",
+        webapp: "https://home-modification-steven-react.vercel.app/",
     },
     {
         id: 2,
@@ -480,37 +480,22 @@ export const projects = [
             "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
         image: "/website-images/soda.png",
         tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-        category: "machine learning",
+        category: "design web",
         github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
         webapp: "https://brain-tumor.netlify.app/",
-        member: [
-            {
-                name: "Rishav Chanda",
-                img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-                linkedin:
-                    "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-                github: "https://github.com/rishavchanda/",
-            },
-            {
-                name: "Upasana Chaudhuri",
-                img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-                linkedin:
-                    "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-                github: "https://github.com/upasana0710",
-            },
-        ],
+   
     },
     {
         id: 3,
-        title: "Buckoid",
+        title: "I Store",
         date: "Dec 2021 - Apr 2022",
         description:
             "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-        image: "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+        image: "/website-images/ai.png",
         tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-        category: "android app",
+        category: "web app",
         github: "https://github.com/rishavchanda/Buckoid-Android-App",
-        webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+        webapp: "https://i-store-ai-frontend-ten.vercel.app/",
     },
     {
         id: 10,
@@ -520,7 +505,7 @@ export const projects = [
             "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
         image: "/website-images/city.png",
         tags: ["React Native", "JavaScript", "Axios"],
-        category: "android app",
+        category: "design web",
         github: "https://github.com/rishavchanda/Job-finder-App",
         webapp: "https://github.com/rishavchanda/Job-finder-App",
     },

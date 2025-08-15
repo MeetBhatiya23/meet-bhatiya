@@ -94,16 +94,16 @@ const Footer = () => {
                     <NavLink href="#Contact">Contact</NavLink>
                 </Nav>
                 <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.facebook} target="display">
+                    <SocialMediaIcon href={Bio.facebook} target="_Blank">
                         <FacebookRounded />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.twitter} target="display">
+                    <SocialMediaIcon href={Bio.twitter} target="_Blank">
                         <Twitter />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.linkedin} target="display">
+                    <SocialMediaIcon href={Bio.linkedin} target="_Blank">
                         <LinkedIn />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.insta} target="display">
+                    <SocialMediaIcon href={Bio.insta} target="_Blank">
                         <Instagram />
                     </SocialMediaIcon>
                 </SocialMediaIcons>

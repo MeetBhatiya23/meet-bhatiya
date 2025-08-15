@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../images/meet-bhatiya.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
-import Tilt from 'react-parallax-tilt';
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {
     headContainerAnimation,
@@ -188,7 +188,7 @@ const Img = styled.img`
     max-height: 400px;
     min-height: 400px;
     border: 2px solid ${({ theme }) => theme.primary};
-
+    object-fit: cover;
     @media (max-width: 640px) {
         max-width: 280px;
         max-height: 280px;
