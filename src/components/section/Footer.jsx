@@ -94,21 +94,21 @@ const Footer = () => {
                     <NavLink href="#Contact">Contact</NavLink>
                 </Nav>
                 <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.facebook} target="_Blank">
+                    <SocialMediaIcon href={Bio.facebook} target="display">
                         <FacebookRounded />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.twitter} target="_Blank">
+                    <SocialMediaIcon href={Bio.twitter} target="display">
                         <Twitter />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.linkedin} target="_Blank">
+                    <SocialMediaIcon href={Bio.linkedin} target="display">
                         <LinkedIn />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.insta} target="_Blank">
+                    <SocialMediaIcon href={Bio.insta} target="display">
                         <Instagram />
                     </SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2024 Rishav Chanda. All rights reserved.
+                    &copy; 2024 Meet Bhatiya. All rights reserved.
                 </Copyright>
             </FooterWrapper>
         </FooterContainer>

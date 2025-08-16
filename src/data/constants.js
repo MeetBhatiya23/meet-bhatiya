@@ -4,7 +4,7 @@ export const Bio = {
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/MeetBhatiya23",
-    resume: "/",
+    resume: "file:///C:/Users/MEET/Downloads/Meet%20Bhatiya%20Resume%20(2).pdf",
     linkedin: "https://www.linkedin.com/in/meet-bhatiya-182472314/",
     twitter: "/",
     insta: "/",
@@ -112,7 +112,7 @@ export const skills = [
             // },
             {
                 name: "AWS",
-                image: "https://imgs.search.brave.com/_9pMBglwie5jIKi2P4E7TyV_F69NNgnG1BUf8M3VesQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9yZWdp/c3RyeS5ucG1taXJy/b3IuY29tL0Bsb2Jl/aHViL2ljb25zLXN0/YXRpYy1wbmcvbGF0/ZXN0L2ZpbGVzL2Rh/cmsvYXdzLWNvbG9y/LnBuZw",
+                image: "/images/aws.webp",
             },
             // {
             //   name: "Django",
@@ -231,7 +231,7 @@ export const skills = [
             },
             {
                 name: "Postman",
-                image: "https://imgs.search.brave.com/RPEPJUb4IIh6Ytl8mg0KrGvC0JxA_AmkKdSisGSAMDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MmNjMWIzYTE1MGQ1/ZGU5YTNkYWQ1Zjcu/cG5n",
+                image: "/images/postman.png",
             },
             // {
             //   name: "Adobe XD",
@@ -244,7 +244,11 @@ export const skills = [
             },
             {
                 name: "Insomnia",
-                image: "https://imgs.search.brave.com/DWwhzraMj8P59KnQ_QIlgWCEzjDl5xLwvEp15WtHQi8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/c2FuZHR5cGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wMS9pbnNvbW5p/YS5zdmc",
+                image: "/images/Insomnia.png",
+            },
+            {
+                name: "Vercel",
+                image: "/images/Vercel.webp",
             },
         ],
     },

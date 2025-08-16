@@ -161,7 +161,6 @@ const Navbar = () => {
                         >
                             Eduction
                         </NavLink>
-                        
                         <GithubButton
                             href={Bio.github}
                             target="_Blank"
@@ -184,12 +183,8 @@ const Navbar = () => {
                 </NavItems>
 
                 <ButtonContainer>
-                    <GithubButton  href={Bio.github}
-                            target="_Blank"
-                            style={{
-                                background: theme.primary,
-                                color: theme.text_primary,
-                            }}>Github Profile</GithubButton>
+                    <GithubButton href={Bio.github}
+                            target="_Blank">Github Profile</GithubButton>
                 </ButtonContainer>
             </NavbarContainer>
         </Nav>
