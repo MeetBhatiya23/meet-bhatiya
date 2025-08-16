@@ -14,11 +14,6 @@ import Footer from "./components/section/Footer";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
-// ✅ Import AOS
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 const Body = styled.div`
     background-color: ${({ theme }) => theme.bg};
     width: 100%;
@@ -41,16 +36,7 @@ const Wrapper = styled.div`
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
-
 function App() {
-    // ✅ Initialize AOS when App loads
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, // animation duration
-            once: true,     // animate only once
-        });
-    }, []);
-
     return (
         <>
             <ToastContainer
@@ -68,20 +54,19 @@ function App() {
                     <Navbar />
                     <Body>
                         <StartCanvas />
-                        <div >
-                            {/* ✅ Add animations here */}
-                            <Hero  />
+                        <div>
+                            <Hero />
                             <Wrapper>
-                                <Skills  />
-                                <Experience/>
+                                <Skills />
+                                <Experience />
                             </Wrapper>
                             <Projects />
                             <Wrapper>
                                 <Education />
                                 <Contact />
                             </Wrapper>
-                            <Footer  />
-                        </div>
+                            <Footer />
+                        </div>                        
                     </Body>
                 </BrowserRouter>
             </ThemeProvider>
