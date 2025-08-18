@@ -66,7 +66,7 @@ const HeroRightContainer = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-contents: center;
+        justify-content: center;
         margin-bottom: 80px;
     }
 
